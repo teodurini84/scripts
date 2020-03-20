@@ -3,7 +3,7 @@ The purpose of this script is to launch BGInfo from a GPO forcing a specific tem
 ## Description of files ##
 ### DC.bgi ###
 BGINFO template specific for DCs, it's retrieving extra informations file FSMO roles and DNS resolvers from registry
-### DEFAULT.bgi ###
+#### DEFAULT.bgi ####
 BGINFO default template
 ### gpo_script.ps1 ###
 PowerShell script executed by the policy itself.  
