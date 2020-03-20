@@ -1,7 +1,22 @@
 # gpo_bginfo #
-The purpose of this script is to launch BGInfo from a GPO  
-forcing a specific template based on the hostname check
-
+The purpose of this script is to launch BGInfo from a GPO forcing a specific template based on the hostname check
+## Description of files ##
+### DC.bgi ###
+BGINFO template specific for DCs, it's retrieving extra informations file FSMO roles and DNS resolvers from registry
+### DEFAULT.bgi ###
+BGINFO default template
+### gpo_script.ps1 ###
+PowerShell script executed by the policy itself.  
+Adjust var_path with the path of the GPO in your DFS
+### retrieve_fsmo_roles.vbs ###
+Retrieve the FSMO servers for each role
+### retrieve_latest_update.vbs ###
+Retrieve the last Windows Update installation
+### retrieve_server_roles_features.vbs ###
+Retrieve the server roles and features, excluding commons one
+### retrieve_vmware_files.vbs ###
+Retrieve txt file from the vmware folder, matching hostname with vm name
+Adjust var_path with the path of the GPO in your DFS
 ## Instructions ##
 ### GPO Creation ###
 Create an empty GPO go to  
