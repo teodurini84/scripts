@@ -1,8 +1,8 @@
-# gpo_bginfo
+# gpo_bginfo #
 The purpose of this script is to launch BGInfo from a GPO  
 forcing a specific template based on the hostname check
 
-# Instructions
+## Instructions ##
 Create a GPO in your DC enable the following options  
 Computer Configuration  
 -> Policies  
