@@ -1,6 +1,6 @@
 # Parameter for the connection 
 $var_vcenter_fqdn = Read-Host -Prompt 'Input your Vcenter FQDN'
-$var_vcenter_user = Read-Host -Prompt 'Input your Vcenter Username (including the Vcenter domain)'
+$var_vcenter_user = Read-Host -Prompt 'Input your Vcenter Username (including Vcenter domain)'
 $var_vcenter_pwd = Read-Host -Prompt 'Input your Vcenter Password'
 
 # Store password

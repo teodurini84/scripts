@@ -1,5 +1,5 @@
 # Mount shared folder GPO using technical account
-# 
+
 $var_smb_usr=Read-Host -Prompt 'Input your SMB Username (including the domain)'
 $var_smb_pwd=Read-Host -Prompt 'Input your SMB Password'
 $var_path='"\\<DOMAIN NAME>\sysvol\numcom.local\Policies\<POLICY ID>\User\Scripts\Logon\'
