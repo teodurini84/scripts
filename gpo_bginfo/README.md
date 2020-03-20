@@ -17,8 +17,8 @@ Retrieve the last Windows Update installation
 #### retrieve_server_roles_features.vbs ####
 Retrieve the server roles and features, excluding commons one
 #### retrieve_vmware_files.vbs ####
-Retrieve txt file from the vmware folder, matching hostname with vm name
-Refer to the script vmware_cli/CLI_Remote_BGInfo.ps1
+Retrieve txt file from the vmware folder, matching hostname with vm name  
+Refer to the script vmware_cli/CLI_Remote_BGInfo.ps1  
 Adjust var_path with the path of the GPO in your DFS
 ## Instructions ##
 #### GPO Creation ####
