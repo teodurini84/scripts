@@ -3,7 +3,18 @@ The purpose of this script is to launch BGInfo from a GPO
 forcing a specific template based on the hostname check
 
 ## Instructions ##
+### GPO Creation ###
+Create an empty GPO go to  
+User Configuration  
+-> Policies  
+-> Windows Settings  
+-> Scripts  
+-> Logon  
+Click on Show files  
+### Files in GPO Folder ###
+Copy all the files to this folder and create the vmware subfolder  
 ### GPO settings ###
+The computer configuration is needed to enable the loopback and link the policy to the OU containing your machines, applying it at the user level  
 Computer Configuration  
 -> Policies  
 -> Administrative Templates  
